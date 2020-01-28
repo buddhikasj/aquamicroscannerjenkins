@@ -1,7 +1,7 @@
 //Reference : https://medium.com/@gustavo.guss/jenkins-building-docker-image-and-sending-to-registry-64b84ea45ee9
 pipeline {
     environment {
-   // registry = "gustavoapolinario/docker-test" 123
+   // registry = "gustavoapolinario/docker-test" 1232323
     registryCredential = 'docker-hub'
     customImage = ''
     image_name = 'buddhikasj88/contrast-httpserver:'+"${env.BUILD_ID}"
